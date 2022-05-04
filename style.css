@@ -31,6 +31,15 @@ body{
     margin: 15;
 }
 
+.visualizers{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    flex-direction: row;
+    height: 100%;
+}
+
 .left_visualizer{
     box-shadow: 0 0 10px 3px rgb(0 0 0 / 40%);
     padding: 0 15px;
@@ -38,6 +47,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1;
     flex-direction: row;
+    height: 100%;
+    width: 20%;
+}
+
+.text_visualizer{
+    box-shadow: 0 0 10px 3px rgb(0 0 0 / 40%);
+    padding: 0 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100%;
+    width: 80%;
 }
