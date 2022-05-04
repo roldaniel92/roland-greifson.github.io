@@ -3,16 +3,19 @@
     color: #fff;
 }
 
+body{
+    margin: 5;
+}
+
 .nav_bar{
     box-shadow: 0 0 10px 3px rgb(0 0 0 / 40%);
-    min-height: 52px;
     padding: 0 20px;
+    border: none;
     position: relative;
     z-index: 3;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 
@@ -26,4 +29,15 @@
 .options_menu li{
     display: list-item;
     margin: 15;
+}
+
+.left_visualizer{
+    box-shadow: 0 0 10px 3px rgb(0 0 0 / 40%);
+    padding: 0 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    flex-direction: row;
 }
