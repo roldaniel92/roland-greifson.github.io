@@ -27,30 +27,14 @@ body{
 }
 
 .options_menu li{
+    cursor: pointer;
+}
+
+.options_menu li{
     display: list-item;
     margin: 15;
 }
 
-.visualizers{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: stretch;
-    flex-direction: row;
-    height: 100%;
-}
-
-.left_visualizer{
-    box-shadow: 0 0 10px 3px rgb(0 0 0 / 40%);
-    padding: 0 15px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    height: 100%;
-    width: 20%;
-}
 
 .text_visualizer{
     box-shadow: 0 0 10px 3px rgb(0 0 0 / 40%);
@@ -58,8 +42,22 @@ body{
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: stretch;
     flex-direction: row;
     height: 100%;
-    width: 80%;
+    width: 100%;
+}
+
+.collapse_list{
+    list-style-type: none;
+    align-items: center;
+    position: absolute;
+    border-top: 3px solid white;
+    padding: 0;
+    width: 250px;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 18%);
+    display: block;
+    top: 190%;
+    left: 0;
+    font-weight: 500;
 }
